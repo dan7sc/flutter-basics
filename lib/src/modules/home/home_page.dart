@@ -22,7 +22,10 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Counter(),
+            ConfigWidget(
+              config: 'Hello!',
+              child: ConfigUserWidget(),
+            ),
           ],
         ),
       ),
