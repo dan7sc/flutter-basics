@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/src/widgets/build_context.dart';
+import 'package:flutter_basics/src/widgets/widgets.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key, this.title}) : super(key: key);
@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            WithBuildContext(),
+            HelloWorld(),
           ],
         ),
       ),
