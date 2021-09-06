@@ -5,3 +5,4 @@ export 'hello_world.dart';
 export 'counter.dart';
 export 'config_widget.dart';
 export 'text_widget.dart';
+export 'text_span_widget.dart';
