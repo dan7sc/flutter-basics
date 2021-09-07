@@ -15,3 +15,4 @@ export 'layout/constraints.dart';
 export 'layout/unconstraint.dart';
 export 'layout/overflow_box_widget.dart';
 export 'layout/sized_overflow_box_widget.dart';
+export 'layout/limited_box_widget.dart';
