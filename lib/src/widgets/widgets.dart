@@ -17,3 +17,4 @@ export 'layout/overflow_box_widget.dart';
 export 'layout/sized_overflow_box_widget.dart';
 export 'layout/limited_box_widget.dart';
 export 'layout/fit_page.dart';
+export 'layout/rotated_box_widget.dart';
