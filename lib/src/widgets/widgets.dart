@@ -20,3 +20,4 @@ export 'layout/fit_page.dart';
 export 'layout/rotated_box_widget.dart';
 export 'layout/aspect_ratio_widget.dart';
 export 'layout/transform_widget.dart';
+export 'layout/container_widget.dart';
