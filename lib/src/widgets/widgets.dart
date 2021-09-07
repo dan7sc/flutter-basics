@@ -23,3 +23,4 @@ export 'layout/transform_widget.dart';
 export 'layout/container_widget.dart';
 export 'layout/flex_widget.dart';
 export 'layout/stack_widget.dart';
+export 'layout/wrap_widget.dart';
