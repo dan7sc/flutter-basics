@@ -59,6 +59,17 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
             maxLength: 10,
             maxLengthEnforcement: MaxLengthEnforcement.none,
           ),
+          SizedBox(height: 8),
+          TextField(
+            inputFormatters: [
+            TextInputFormatter.withFunction(
+                (oldValue, newValue) =>
+                    newValue.copyWith(
+                  text: newValue.text.toUpperCase(),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
