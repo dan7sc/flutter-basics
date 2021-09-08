@@ -43,6 +43,17 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
               suffixText: '.00',
             ),
           ),
+          SizedBox(height: 8),
+          TextField(
+            keyboardType: TextInputType.emailAddress,
+            decoration: InputDecoration(
+              labelText: 'Email',
+              labelStyle: TextStyle(fontWeight: FontWeight.bold),
+              hintText: 'Email address for validation',
+              helperText: 'For receiving validation emails',
+              counterText: '10',
+            ),
+          ),
         ],
       ),
     );
