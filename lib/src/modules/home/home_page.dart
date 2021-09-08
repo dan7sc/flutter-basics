@@ -11,7 +11,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +27,7 @@ class _HomePageState extends State<HomePage> {
       //     ),
       //   ),
       // ),
-      body: ListTileWidget(),
+      body: CheckboxInListTile(),
     );
   }
 }
