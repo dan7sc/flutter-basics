@@ -21,6 +21,18 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
             textInputAction: TextInputAction.done,
             keyboardAppearance: Brightness.dark,
           ),
+          SizedBox(height: 8),
+          TextField(
+            decoration: InputDecoration(
+              labelText: 'Username',
+              labelStyle: TextStyle(fontWeight: FontWeight.bold),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.blue),
+                borderRadius: BorderRadius.all(Radius.circular(10)),
+                gapPadding: 2.5,
+              ),
+            ),
+          ),
         ],
       ),
     );
