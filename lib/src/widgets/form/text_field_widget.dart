@@ -54,6 +54,11 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
               counterText: '10',
             ),
           ),
+          SizedBox(height: 8),
+          TextField(
+            maxLength: 10,
+            maxLengthEnforcement: MaxLengthEnforcement.none,
+          ),
         ],
       ),
     );
