@@ -41,3 +41,4 @@ export 'form/fruit_chooser_choicechip.dart';
 export 'form/fruit_chooser_filterchip.dart';
 export 'form/pick_date_widget.dart';
 export 'form/pick_time_widget.dart';
+export 'form/name_input_form.dart';
