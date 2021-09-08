@@ -36,3 +36,4 @@ export 'form/fruit_chooser_radio.dart';
 export 'form/fruit_chooser_dropdown.dart';
 export 'form/fruit_selector.dart';
 export 'form/name_input_switch.dart';
+export 'form/slider_value.dart';
