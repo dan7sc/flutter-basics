@@ -33,6 +33,16 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
               ),
             ),
           ),
+          SizedBox(height: 8),
+          TextField(
+            keyboardType: TextInputType.number,
+            decoration: InputDecoration(
+              prefixIcon: Icon(Icons.monetization_on),
+              prefixText: 'Pay ',
+              prefixStyle: TextStyle(fontStyle: FontStyle.italic),
+              suffixText: '.00',
+            ),
+          ),
         ],
       ),
     );
