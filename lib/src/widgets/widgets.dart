@@ -33,3 +33,4 @@ export 'form/text_field_callbacks.dart';
 export 'form/text_field_widget.dart';
 export 'form/text_selection_example.dart';
 export 'form/fruit_chooser_radio.dart';
+export 'form/fruit_chooser_dropdown.dart';
