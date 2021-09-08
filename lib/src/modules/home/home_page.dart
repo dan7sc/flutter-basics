@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
       //     ),
       //   ),
       // ),
-      body: ListViewWidget(),
+      body: ListViewSeparated(),
     );
   }
 }
