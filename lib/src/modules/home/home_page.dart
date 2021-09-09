@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
       //     ),
       //   ),
       // ),
-      body: GridViewCountWithImages(),
+      body: GridViewCountWithTile(),
     );
   }
 }
