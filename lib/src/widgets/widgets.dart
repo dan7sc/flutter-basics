@@ -54,3 +54,4 @@ export 'common/switch_list_tile.dart';
 export 'common/grid_view_count.dart';
 export 'common/grid_view_extent.dart';
 export 'common/grid_view_builder.dart';
+export 'common/grid_view_count_with_images.dart';
