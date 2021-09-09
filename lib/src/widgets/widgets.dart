@@ -56,3 +56,4 @@ export 'common/grid_view_extent.dart';
 export 'common/grid_view_builder.dart';
 export 'common/grid_view_count_with_images.dart';
 export 'common/grid_view_count_with_tile.dart';
+export 'common/table_with_different_column_width.dart';
