@@ -60,3 +60,4 @@ export 'common/table_with_different_column_width.dart';
 export 'common/vertical_alignment_table.dart';
 export 'common/scaffold_example.dart';
 export 'common/tab_page.dart';
+export 'common/default_tab_controller_page.dart';

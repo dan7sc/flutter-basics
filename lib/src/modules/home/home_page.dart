@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return TabPage();
+    return DefaultTabControllerPage();
     // return Scaffold(
     //   appBar: AppBar(
     //     title: Text(widget.title ?? ''),
