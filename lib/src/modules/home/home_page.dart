@@ -13,21 +13,20 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return DefaultTabControllerPage();
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     title: Text(widget.title ?? ''),
-    //   ),
-    //   body: SingleChildScrollView(
-    //     child: Center(
-    //       child: Column(
-    //         mainAxisAlignment: MainAxisAlignment.center,
-    //         children: <Widget>[
-    //          LoginForm(),
-    //         ],
-    //       ),
-    //     ),
-    //   ),
-    // );
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title ?? ''),
+      ),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+             SimpleNavigationPage(),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

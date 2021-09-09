@@ -61,3 +61,5 @@ export 'common/vertical_alignment_table.dart';
 export 'common/scaffold_example.dart';
 export 'common/tab_page.dart';
 export 'common/default_tab_controller_page.dart';
+
+export 'navigation/simple_navigation_page.dart';
