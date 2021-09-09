@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
       //     ),
       //   ),
       // ),
-      body: TableWithDifferentColumnWidth(),
+      body: VerticalAlinmentTable(),
     );
   }
 }
