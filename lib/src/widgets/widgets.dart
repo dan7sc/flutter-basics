@@ -63,3 +63,4 @@ export 'common/tab_page.dart';
 export 'common/default_tab_controller_page.dart';
 
 export 'navigation/simple_navigation_page.dart';
+export 'navigation/page_navigation_app.dart';
