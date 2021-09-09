@@ -11,16 +11,17 @@ class _RadioInListTileState extends State<RadioInListTile> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: CustomColor.values.map((color) {
+    return ListView.builder(
+      itemCount: CustomColor.values.length,
+      itemBuilder: (context, index) {
         return RadioListTile<CustomColor>(
-          selected: color.isSelected,
-          title: Text('Color ${color.value}'),
-          subtitle: Text('Description ${color.value}'),
-          value: color,
+          selected: _selectedColor != null ? _selectedColor!.isSelected : false,
+          title: Text('Color $index'),
+          subtitle: Text('Description ${CustomColor.values[index].value}'),
+          value: CustomColor.values[index],
           groupValue: _selectedColor,
           activeColor: Colors.black.withOpacity(0.75),
-          selectedTileColor: color.color,
+          selectedTileColor: CustomColor.values[index].isSelected ? CustomColor.values[index].color : Colors.white,
           onChanged: (value) {
             setState(() {
               if(_selectedColor != null) {
@@ -32,7 +33,7 @@ class _RadioInListTileState extends State<RadioInListTile> {
             });
           },
         );
-      }).toList(),
+      },
     );
   }
 }
