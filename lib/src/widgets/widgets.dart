@@ -52,3 +52,4 @@ export 'common/checkbox_list_tile.dart';
 export 'common/radio_list_tile.dart';
 export 'common/switch_list_tile.dart';
 export 'common/grid_view_count.dart';
+export 'common/grid_view_extent.dart';
