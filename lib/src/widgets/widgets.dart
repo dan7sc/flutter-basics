@@ -69,3 +69,4 @@ export 'navigation/display_dialog_page.dart';
 export 'navigation/display_menu_page.dart';
 export 'navigation/user_onboarding_page.dart';
 export 'navigation/logging_navigator_observer.dart';
+export 'navigation/observed_page.dart';
