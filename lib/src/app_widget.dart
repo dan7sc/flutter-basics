@@ -4,8 +4,6 @@ import 'package:flutter_basics/src/widgets/widgets.dart';
 import 'modules/home/home_page.dart';
 
 class App extends StatelessWidget {
-  final RouteObserver<PageRoute<dynamic>> routeObserver = RouteObserver<PageRoute<dynamic>>();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,10 +11,10 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ObservedPage(routeObserver),
-      initialRoute: '/user',
+      home: HomePage(),
+      initialRoute: '/veto',
       routes: {
-        '/user': (context) => UserOnBoardingPage(),
+        '/veto': (context) => VetoPopPage(),
       }
     );
   }
