@@ -14,7 +14,7 @@ class App extends StatelessWidget {
       // home: HomePage(),
       initialRoute: '/',
       routes: {
-        '/': (context) => DisplayDialogPage(),
+        '/': (context) => DisplayMenuPage(),
       }
     );
   }
