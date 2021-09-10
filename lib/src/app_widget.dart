@@ -18,8 +18,16 @@ class App extends StatelessWidget {
           );
         }
       },
+      onUnknownRoute: (RouteSettings settings) {
+        return MaterialPageRoute(
+          settings: settings,
+          builder: (BuildContext context) {
+            return HomePage(title: 'AppBar');
+          },
+        );
+      },
       routes: {
-        '/': (context) => UserDetailsPage(),
+        '/user': (context) => UserDetailsPage(),
       },
 
       // title: 'Flutter Demo',
