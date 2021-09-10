@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'logging_navigator_observer.dart';
+
 class UserOnBoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -8,6 +10,7 @@ class UserOnBoardingPage extends StatelessWidget {
         title: Text('Get Started'),
       ),
       body: Navigator(
+        observers: [LoggingNavigatorObserver()],
         initialRoute: 'on_boarding/topic',
         onGenerateRoute: (RouteSettings settings) {
           WidgetBuilder? builder;
