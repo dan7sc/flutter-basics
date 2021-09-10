@@ -11,10 +11,10 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: HomePage(),
-      initialRoute: '/',
+      home: HomePage(),
+      initialRoute: '/user',
       routes: {
-        '/': (context) => DisplayMenuPage(),
+        '/user': (context) => UserOnBoardingPage(),
       }
     );
   }

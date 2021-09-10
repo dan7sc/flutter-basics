@@ -67,3 +67,4 @@ export 'navigation/page_navigation_app.dart';
 export 'navigation/user_details_page.dart';
 export 'navigation/display_dialog_page.dart';
 export 'navigation/display_menu_page.dart';
+export 'navigation/user_onboarding_page.dart';
