@@ -71,3 +71,5 @@ export 'navigation/user_onboarding_page.dart';
 export 'navigation/logging_navigator_observer.dart';
 export 'navigation/observed_page.dart';
 export 'navigation/veto_pop_page.dart';
+
+export 'service/stream_builder_page.dart';

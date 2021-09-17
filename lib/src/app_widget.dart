@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/src/widgets/widgets.dart';
 
-import 'modules/home/home_page.dart';
+import 'modules/service/service_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -11,10 +10,9 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
-      initialRoute: '/veto',
+      initialRoute: '/',
       routes: {
-        '/veto': (context) => VetoPopPage(),
+        '/': (context) => ServicePage(),
       }
     );
   }
