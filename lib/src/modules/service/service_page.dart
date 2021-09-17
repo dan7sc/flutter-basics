@@ -22,7 +22,7 @@ class _ServicePageState extends State<ServicePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              StreamBuilderPage(),
+              FutureBuilderPage(),
             ],
           ),
         ),
