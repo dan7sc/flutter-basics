@@ -32,6 +32,7 @@ dependencies:
   build_runner: ^2.1.2
   json_serializable: ^4.1.4
   xml: ^5.3.0
+  html: ^0.15.0
 
 dev_dependencies:
   flutter_test:
