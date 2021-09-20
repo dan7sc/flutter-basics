@@ -17,16 +17,7 @@ class _ServicePageState extends State<ServicePage> {
       appBar: AppBar(
         title: Text(widget.title ?? 'Service Page'),
       ),
-      body: SingleChildScrollView(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              FutureBuilderPage(),
-            ],
-          ),
-        ),
-      ),
+      body: RestServicePage(),
     );
   }
 }
