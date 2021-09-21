@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'modules/service/service_page.dart';
+import 'modules/state/state_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => ServicePage(),
+        '/': (context) => StatePage(),
       }
     );
   }

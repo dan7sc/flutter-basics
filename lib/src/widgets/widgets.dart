@@ -75,3 +75,5 @@ export 'navigation/veto_pop_page.dart';
 export 'service/stream_builder_page.dart';
 export 'service/future_builder_page.dart';
 export 'service/rest_service_page.dart';
+
+export 'state/stateful_widget/select_color_widget.dart';
