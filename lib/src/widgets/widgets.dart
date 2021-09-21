@@ -77,3 +77,4 @@ export 'service/future_builder_page.dart';
 export 'service/rest_service_page.dart';
 
 export 'state/stateful_widget/select_color_widget.dart';
+export 'state/stateful_widget/counter_widget.dart';

@@ -17,7 +17,7 @@ class _StatePageState extends State<StatePage> {
       appBar: AppBar(
         title: Text(widget.title ?? 'Service Page'),
       ),
-      body: SelectColorWidget(),
+      body: CounterWidget(),
     );
   }
 }
