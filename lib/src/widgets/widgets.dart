@@ -78,3 +78,6 @@ export 'service/rest_service_page.dart';
 
 export 'state/stateful_widget/select_color_widget.dart';
 export 'state/stateful_widget/counter_widget.dart';
+export 'state/inherited_widget/configured_page.dart';
+export 'state/inherited_widget/configured_text.dart';
+export 'state/inherited_widget/configured_box.dart';
