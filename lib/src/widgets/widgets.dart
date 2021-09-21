@@ -81,3 +81,6 @@ export 'state/stateful_widget/counter_widget.dart';
 export 'state/inherited_widget/configured_page.dart';
 export 'state/inherited_widget/configured_text.dart';
 export 'state/inherited_widget/configured_box.dart';
+export 'state/inherited_model/configured_model_page.dart';
+export 'state/inherited_model/configured_model_text.dart';
+export 'state/inherited_model/configured_model_box.dart';
