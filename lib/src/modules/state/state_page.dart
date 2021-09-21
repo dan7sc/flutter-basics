@@ -17,15 +17,8 @@ class _StatePageState extends State<StatePage> {
       appBar: AppBar(
         title: Text(widget.title ?? 'Service Page'),
       ),
-      body: ConfiguredNotifierPage(
-      child: Center(
-        child: Column(
-            children: [
-              ConfiguredNotifierText(),
-              ConfiguredNotifierBox(),
-            ],
-          ),
-      ),
+      body: Center(
+        child: ScopedModelPage(),
       ),
     );
   }

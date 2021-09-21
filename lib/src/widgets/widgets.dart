@@ -87,3 +87,4 @@ export 'state/inherited_model/configured_model_box.dart';
 export 'state/inherited_notifier/configured_notifier_page.dart';
 export 'state/inherited_notifier/configured_notifier_text.dart';
 export 'state/inherited_notifier/configured_notifier_box.dart';
+export 'state/scoped_model/scoped_model_page.dart';
