@@ -16,36 +16,6 @@ class _SelectColorWidgetState extends State<SelectColorWidget> {
   }
 
   @override
-  void initState() {
-    print('initState');
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    print('dispose');
-    super.dispose();
-  }
-
-  @override
-  void didChangeDependencies() {
-    print('didChangeDependencies');
-    super.didChangeDependencies();
-  }
-
-  @override
-  void deactivate() {
-    print('deactivate');
-    super.deactivate();
-  }
-
-  @override
-  void reassemble() {
-    print('reassemble');
-    super.reassemble();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Center(
       child: Column(
