@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'modules/state/state_page.dart';
+import 'modules/animation/animation_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => StatePage(),
+        '/': (context) => AnimationPage(),
       }
     );
   }
