@@ -10,7 +10,23 @@ class AnimationPage extends StatefulWidget {
   _AnimationPageState createState() => _AnimationPageState();
 }
 
-class _AnimationPageState extends State<AnimationPage> {
+class _AnimationPageState extends State<AnimationPage>
+    with SingleTickerProviderStateMixin {
+  late Animation<double> animation;
+
+  @override
+  void initState() {
+    super.initState();
+    animation = AnimationController(
+      value: 100,
+      lowerBound: 0,
+      upperBound: 300,
+      duration: Duration(seconds: 8),
+      vsync: this,
+    )
+    ..forward();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +35,9 @@ class _AnimationPageState extends State<AnimationPage> {
       ),
       body: SingleChildScrollView(
         child: Center(
-          child: ReversedGrowingImage(),
+          child: AnimatedImage(
+            animation: animation,
+          ),
         ),
       ),
     );

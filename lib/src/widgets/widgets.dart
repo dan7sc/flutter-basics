@@ -99,3 +99,4 @@ export 'state/scoped_model/scoped_model_page.dart';
 
 export 'animation/simple_animation/growing_image.dart';
 export 'animation/simple_animation/reversed_growing_image.dart';
+export 'animation/simple_animation/animated_image.dart';
