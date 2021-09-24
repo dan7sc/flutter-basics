@@ -101,3 +101,4 @@ export 'animation/simple_animation/growing_image.dart';
 export 'animation/simple_animation/reversed_growing_image.dart';
 export 'animation/simple_animation/animated_image.dart';
 export 'animation/linear_interpolation/animated_color_tween.dart';
+export 'animation/curved_animation/curved_position.dart';
