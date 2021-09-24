@@ -19,7 +19,7 @@ class _AnimationPageState extends State<AnimationPage> {
       ),
       body: SingleChildScrollView(
         child: Center(
-          child: GrowingImage(),
+          child: ReversedGrowingImage(),
         ),
       ),
     );
