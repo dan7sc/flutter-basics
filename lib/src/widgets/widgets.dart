@@ -104,3 +104,4 @@ export 'animation/linear_interpolation/animated_color_tween.dart';
 export 'animation/curved_animation/curved_position.dart';
 export 'animation/chaining_tweens/chained_tween.dart';
 export 'animation/tweens_sequence/tween_sequence.dart';
+export 'animation/simultaneous_animations/simultaneous_animations_widget.dart';
