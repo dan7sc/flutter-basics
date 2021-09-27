@@ -10,16 +10,17 @@ class AnimationPage extends StatefulWidget {
   _AnimationPageState createState() => _AnimationPageState();
 }
 
-class _AnimationPageState extends State<AnimationPage> {
+class _AnimationPageState extends State<AnimationPage>
+    with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title ?? ''),
+        title: Text(widget.title ?? 'Animation Page'),
       ),
       body: SingleChildScrollView(
         child: Center(
-          child: CurvedPosition(),
+          child: ChainedTween(),
         ),
       ),
     );
