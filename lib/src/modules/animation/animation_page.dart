@@ -18,7 +18,11 @@ class _AnimationPageState extends State<AnimationPage>
       appBar: AppBar(
         title: Text(widget.title ?? 'Animation Page'),
       ),
-      body: ImagesPage(),
+      body: SingleChildScrollView(
+        child: Center(
+          child: TransitionPage(),
+        ),
+      ),
     );
   }
 }

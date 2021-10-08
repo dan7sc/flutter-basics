@@ -107,3 +107,4 @@ export 'animation/tweens_sequence/tween_sequence.dart';
 export 'animation/simultaneous_animations/simultaneous_animations_widget.dart';
 export 'animation/staggered_animations/staggered_animations_widget.dart';
 export 'animation/hero_animations/images_page.dart';
+export 'animation/common_transitions/transition_page.dart';
