@@ -14,7 +14,7 @@ class FadeBox extends StatelessWidget {
     return FadeTransition(
       opacity: _animation,
       child: Container(
-        height: 200,
+        height: 150,
         decoration: BoxDecoration(color: Colors.purple),
       ),
     );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'fade_box.dart';
-// import 'scale_box.dart';
+import 'scale_box.dart';
 
 class TransitionPage extends StatefulWidget {
   @override
@@ -30,8 +30,15 @@ class _TransitionPageState extends State<TransitionPage>
 
   @override
   Widget build(BuildContext context) {
-    return FadeBox(
-      animation: controller,
+    return Column(
+      children: [
+        ScaleBox(
+          animation: controller,
+        ),
+        FadeBox(
+          animation: controller,
+        ),
+      ],
     );
   }
 }

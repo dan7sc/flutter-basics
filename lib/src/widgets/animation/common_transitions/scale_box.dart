@@ -15,7 +15,7 @@ class ScaleBox extends StatelessWidget {
       scale: _animation,
       alignment: Alignment.centerLeft,
       child: Container(
-        height: 200,
+        height: 150,
         decoration: BoxDecoration(color: Colors.red),
       ),
     );
